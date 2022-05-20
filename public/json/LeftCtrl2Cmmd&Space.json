@@ -1,0 +1,27 @@
+
+{
+  "title": "Left Ctrl Key → Space+Command For mac ,inorder to switch between EN and CN",
+  "rules": [
+    {
+      "description": "Ctrl Key → Space+Command",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "left_control",
+          },
+          "to": [
+            {
+              "key_code": "left_command",
+              "modifiers":{ 
+                  "mandatory": [
+                "space",
+              ]
+              }
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
